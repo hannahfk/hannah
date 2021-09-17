@@ -1,11 +1,15 @@
 import React from "react";
 import './AboutMe.css'
+import prof from "./prof.png";
 
 const AboutMe = (props) => {
   return (
+    <div>
+    <img src={prof} className="prof" alt="logo" />
   <p data-title="Info Dialog" className="dialog-box">
-  <em>Note:</em> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla commodi tempore voluptatem earum modi suscipit ipsa aspernatur autem amet harum unde assumenda nisi ex consequatur similique cupiditate facere ut nihil velit quos perspiciatis. Repudiandae neque vel aliquam odio doloribus labore.
+  <em>Note:</em> This is where I'll tell you more about myself. But for now: software engineer, flight attendant, pinball enthusiast, hockey fan, book reader, rooftop dancer, beach relaxer, ametuer foodie, music obsessed.
 </p>
+</div>
   );
 };
 

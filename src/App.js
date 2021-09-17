@@ -8,8 +8,10 @@ import Projects from "./Projects";
 import Home from './Home'
 
 function App() {
+  
   return (
     <Router>
+      
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/aboutme" component={AboutMe} />
