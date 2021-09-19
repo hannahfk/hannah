@@ -6,8 +6,8 @@ import Navbar from "./Navbar";
 const Home = (props) => (
   <div className="App">
     <div className="sign">
-      <span className="fast-flicker">h</span>ann
-      <span className="flicker">a</span>h
+      <span className="fast-flicker">w</span>elc
+      <span className="flicker">o</span>me
     </div>
   
   
