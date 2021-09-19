@@ -233,11 +233,19 @@ body {
     0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 }
 
-img:hover {
+.design:hover {
+  transform: translateY(-10px);
+}
+
+.coding:hover {
   transform: translateY(-10px);
 }
 
 .link:hover {
+  transform: translateY(-10px);
+}
+
+.prof:hover {
   transform: translateY(-10px);
 }
 
