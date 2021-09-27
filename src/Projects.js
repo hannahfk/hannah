@@ -3,6 +3,7 @@ import "./Projects.css";
 import donut from "./images/Donut-clipart copy.png";
 import unicorn from "./images/glow copy.png";
 import ticket from "./images/ticket2.jpeg";
+import { Link } from "react-router-dom";
 
 const Projects = (props) => {
   return (
@@ -79,6 +80,7 @@ const Projects = (props) => {
           </button>
         </div>
       </div>
+      <Link to="/">Home</Link>
     </div>
   );
 };
