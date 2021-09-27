@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 
 const Home = (props) => (
   <div className="App">
+      <Navbar />
     <div className="sign">
       <span className="fast-flicker">w</span>elc
       <span className="flicker">o</span>me
@@ -12,7 +13,7 @@ const Home = (props) => (
   
   
 
-    <Navbar />
+  
     <img src={pinball} className="flippers" alt="flippers" />
   </div>
 );

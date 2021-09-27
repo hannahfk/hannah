@@ -4,10 +4,12 @@ import donut from "./images/Donut-clipart copy.png";
 import unicorn from "./images/glow copy.png";
 import ticket from "./images/ticket2.jpeg";
 import { Link } from "react-router-dom";
+import Navbar from './Navbar'
 
 const Projects = (props) => {
   return (
     <div className="projects">
+      <Navbar />
       <div className="sign">
         <span className="fast-flicker">P</span>roje
         <span className="flicker">ct</span>s
@@ -80,7 +82,6 @@ const Projects = (props) => {
           </button>
         </div>
       </div>
-      <Link to="/">Home</Link>
     </div>
   );
 };
