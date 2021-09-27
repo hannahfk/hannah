@@ -1,6 +1,7 @@
 import React from "react";
 
 import pinball from "./pinball.png";
+import neongif2 from './images/neongif2.gif'
 import Navbar from "./Navbar";
 
 const Home = (props) => (
@@ -14,7 +15,8 @@ const Home = (props) => (
   
 
   
-    <img src={pinball} className="flippers" alt="flippers" />
+    {/* <img src={pinball} className="flippers" alt="flippers" /> */}
+    <img src={neongif2} className="gif" alt="javascript" />
   </div>
 );
 
